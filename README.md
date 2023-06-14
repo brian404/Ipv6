@@ -16,5 +16,4 @@ Open a terminal and run the following command:
 
 ```bash
 
-wget -O - https://github.com/brian404/ipv6_to_ipv4/raw/main/ipv6_to_ipv4.sh | bash
-
+wget https://github.com/brian404/ipv6_to_ipv4/raw/main/ipv6_to_ipv4.sh && chmod +x ipv6_to_ipv4.sh
