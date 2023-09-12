@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Prompt user for IPv4 proxy configuration
-
 read -p "Enter IPv4 proxy address: " PROXY_IPV4
 
 while [[ ! $PROXY_IPV4 =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; do
